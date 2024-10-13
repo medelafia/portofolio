@@ -1,0 +1,44 @@
+.custom-navbar {
+    height: 70px ;
+}
+.hero {
+    width: 100%; 
+    height: calc(100vh - 70px );
+}
+.hero-text {
+    font-weight:bold ;
+    font-size: var(--hero-title-font-size);
+}
+.line {
+    width: 150px; 
+    height: 3px ;
+    background-color: var(--secondary-color);
+}
+.custom-nav-menu {
+    position : absolute ; 
+    top: 70px;
+    right: 0px;
+}
+.custom-nav-menu::before {
+    content: "";
+    position : absolute ; 
+    background-color: var(--secondary-color);
+    rotate : 45deg;
+    top: -5px;
+    right: 15px;
+    width: 10px;
+    height: 10px ;
+}
+.custom-nav-menu > li > a {
+    text-decoration: none; 
+    color : white ; 
+} 
+.service-box {
+    background-color: var(--primary-color);
+    filter: blur(10px);
+    opacity: 0.5 ;
+}
+.about {
+    background-color: #1A1A2E ;
+    opacity: 100%;
+}
